@@ -39,7 +39,7 @@ class MidasBot:
         self.print_gradient_text(custom_fig.renderText(' MIDAS'), self.start_color, self.end_color)
         print(Fore.AQUA + '[#] FOLLOW    ' + Fore.GREEN + ' https://github.com/Rextouin-R/ ' + Fore.RESET)
         print(Fore.AQUA + '[#] Welcome & enjoy ! MAKSIMALKAN', Fore.RESET)
-        print(Fore.AQUA + '[#] MODULS by ', Fore.RESET)
+        print(Fore.AQUA + '[#] MODULS by mrplanktn ', Fore.RESET)
         print('')
 
     def load_query_ids(self):
@@ -144,7 +144,7 @@ class MidasBot:
         self.play_game_if_needed(token)
         self.claim_tasks(token)
         self.check_referrals(token)
-        print(f"{Fore.WHITE}-==========[✨ midasRWA midasRWA midasRWA midasRWA midasRWA ✨]==========-{Fore.RESET}")
+        print(f"{Fore.WHITE}-==========[✨ can't join : @AIRDROP_UNLIMITED | @UNLIMITED_DISCUSSION : for chat ✨]==========-{Fore.RESET}")
 
     def get_username(self, query_id):
         timestamp = Fore.MAGENTA + get_formatted_time() + Fore.RESET
