@@ -32,3 +32,6 @@ nano data.txt
 ```
 ## Run bot
 ```
+python midas.py
+```
+## Semoga berhasil 
