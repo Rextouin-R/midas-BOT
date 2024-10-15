@@ -37,9 +37,9 @@ class MidasBot:
         os.system("cls" if os.name == "nt" else "clear")
         custom_fig = Figlet(font='slant')
         self.print_gradient_text(custom_fig.renderText(' MIDAS'), self.start_color, self.end_color)
-        print(Fore.BLUE + '[#] FOLLOW    ' + Fore.GREEN + ' https://github.com/Rextouin-R/ ' + Fore.RESET)
-        print(Fore.BLUE + '[#] Welcome & enjoy ' + Fore.GREEN + ' MAKSIMALKAN ', + Fore.RESET)
-        print(Fore.BLUE + '[#] MODULS by mrplanktn ', Fore.RESET)
+        print(Fore.RED + '[#] Follow    ' + Fore.GREEN + 'copy paste from https://github.com/Rextouin-R/ ' + Fore.RESET)
+        print(Fore.GREEN + '[#] @airdrop_unlimited | @unlimited_discussion', Fore.RESET)
+        print(Fore.YELLOW + '[#] MODULS by : mrplanktn ', Fore.RESET)
         print('')
 
     def load_query_ids(self):
