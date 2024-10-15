@@ -26,7 +26,7 @@ cd midas-BOT
 python -m pip install -r requirements.txt
 ```
 ## Edit `data.txt` lalu paste query_id/user_id kalian
-## Save `CTRL+xy` (enter) 
+## Save `CTRL+x-y` (enter) 
 ```
 nano data.txt
 ```
