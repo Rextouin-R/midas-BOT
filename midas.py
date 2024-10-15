@@ -144,7 +144,7 @@ class MidasBot:
         self.play_game_if_needed(token)
         self.claim_tasks(token)
         self.check_referrals(token)
-        print(f"{Fore.WHITE}-==========[✨ can't join : @AIRDROP_UNLIMITED | @UNLIMITED_DISCUSSION : for chat ✨]==========-{Fore.RESET}")
+        print(f"{Fore.WHITE}-==========[✨ @AIRDROP_UNLIMITED | @UNLIMITED_DISCUSSION ✨]==========-{Fore.RESET}")
 
     def get_username(self, query_id):
         timestamp = Fore.MAGENTA + get_formatted_time() + Fore.RESET
